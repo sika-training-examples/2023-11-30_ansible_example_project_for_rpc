@@ -6,3 +6,6 @@ run-redis:
 
 run-counter:
 	ansible-playbook counter.yml
+
+run-haproxy:
+	ansible-playbook haproxy.yml
